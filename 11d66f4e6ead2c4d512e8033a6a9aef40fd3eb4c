@@ -48,6 +48,23 @@
     },
     {
       "key": {
+        "uuid": "9a0b7d60_debaa909",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2014-12-18T21:19:27Z",
+      "side": 1,
+      "message": "space leftover?",
+      "revId": "11d66f4e6ead2c4d512e8033a6a9aef40fd3eb4c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a0b7d60_5ecfd9b0",
         "filename": "openstack-neutron-lbaas.spec",
         "patchSetId": 1
