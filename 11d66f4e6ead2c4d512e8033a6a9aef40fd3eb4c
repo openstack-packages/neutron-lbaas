@@ -25,6 +25,53 @@
     },
     {
       "key": {
+        "uuid": "9a0b7d60_3e2c954a",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2014-12-18T21:41:23Z",
+      "side": 1,
+      "message": "Delorean ignores Source0 so tarballs.o.o URL is fine until there\u0027s a release",
+      "parentUuid": "9a0b7d60_9ec0217e",
+      "range": {
+        "startLine": 11,
+        "startChar": 16,
+        "endLine": 11,
+        "endChar": 20
+      },
+      "revId": "11d66f4e6ead2c4d512e8033a6a9aef40fd3eb4c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a0b7d60_9ef5c1cd",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2014-12-18T21:41:23Z",
+      "side": 1,
+      "message": "While at it add SKIP_PIP_INSTALL\u003d1 for a good measure\n\nhttp://docs.openstack.org/developer/pbr/packagers.html",
+      "range": {
+        "startLine": 50,
+        "startChar": 37,
+        "endLine": 50,
+        "endChar": 38
+      },
+      "revId": "11d66f4e6ead2c4d512e8033a6a9aef40fd3eb4c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a0b7d60_bec36589",
         "filename": "openstack-neutron-lbaas.spec",
         "patchSetId": 1
@@ -76,6 +123,30 @@
       "writtenOn": "2014-12-18T21:17:37Z",
       "side": 1,
       "message": "This should probably say XXX",
+      "range": {
+        "startLine": 83,
+        "startChar": 23,
+        "endLine": 83,
+        "endChar": 33
+      },
+      "revId": "11d66f4e6ead2c4d512e8033a6a9aef40fd3eb4c",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a0b7d60_be1fe508",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2014-12-18T21:41:23Z",
+      "side": 1,
+      "message": "yeah, %{version} is generated in Delorean, so adding NVR in changelong entries is misleading.\n\nBut I would, again, argue that %changelog entries shouldn\u0027t be in Delorean spec at all, they\u0027re leftovers from CVS area and we have git commit messages now!\n\nChangelogs are added in actual distro packages and should be treated as end-user documentation, so should be maintained separately (I don\u0027t have a solution, just throwing ideas)",
+      "parentUuid": "9a0b7d60_5ecfd9b0",
       "range": {
         "startLine": 83,
         "startChar": 23,
