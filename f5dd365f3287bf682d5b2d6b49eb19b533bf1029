@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1af78d9a_4b1445f5",
+        "filename": "neutron-lbaas-agent.service",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2014-12-19T12:15:41Z",
+      "side": 1,
+      "message": "notify is coming next or not really needed for agent services?",
+      "range": {
+        "startLine": 6,
+        "startChar": 5,
+        "endLine": 6,
+        "endChar": 11
+      },
+      "revId": "f5dd365f3287bf682d5b2d6b49eb19b533bf1029",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1af78d9a_abf849c5",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2014-12-19T12:15:41Z",
+      "side": 1,
+      "message": "@derekh - I see we have {?dist} suffix in other Delorean specs, is this something Delorean could append by default?",
+      "range": {
+        "startLine": 7,
+        "startChar": 26,
+        "endLine": 7,
+        "endChar": 27
+      },
+      "revId": "f5dd365f3287bf682d5b2d6b49eb19b533bf1029",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1af78d9a_8bf58dcd",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2014-12-19T12:15:41Z",
+      "side": 1,
+      "message": "While this should work (confirmed in pbr/version.py) PBR_VERSION is documented at http://docs.openstack.org/developer/pbr/packagers.html\n\nOSLO_PACKAGE_VERSION might be something specific for oslo libs (didn\u0027t look) ?",
+      "range": {
+        "startLine": 77,
+        "startChar": 37,
+        "endLine": 77,
+        "endChar": 38
+      },
+      "revId": "f5dd365f3287bf682d5b2d6b49eb19b533bf1029",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
