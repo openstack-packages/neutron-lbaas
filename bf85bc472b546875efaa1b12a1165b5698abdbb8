@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1af78d9a_cea68353",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000935
+      },
+      "writtenOn": "2014-12-21T23:33:20Z",
+      "side": 1,
+      "message": "Tagged tarball is now available\nhttp://tarballs.openstack.org/neutron-lbaas/neutron-lbaas-2015.1.0b1.tar.gz\n\nBut Source0 is not used by Delorean so let\u0027s merge as is and change later.",
+      "range": {
+        "startLine": 12,
+        "startChar": 16,
+        "endLine": 12,
+        "endChar": 47
+      },
+      "revId": "bf85bc472b546875efaa1b12a1165b5698abdbb8",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
