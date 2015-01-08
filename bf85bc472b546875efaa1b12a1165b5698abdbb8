@@ -1,0 +1,8 @@
+Code-Review+2: Alan Pevec <alan.pevec@redhat.com>
+Code-Review+2: Matthias Runge <mrunge@matthias-runge.de>
+Verified+1: Matthias Runge <mrunge@matthias-runge.de>
+Submitted-by: Ihar Hrachyshka <ihrachys@redhat.com>
+Submitted-at: Thu, 08 Jan 2015 18:55:42 +0100
+Reviewed-on: https://review.gerrithub.io/14172
+Project: openstack-packages/neutron-lbaas
+Branch: refs/heads/f20-master
