@@ -1,0 +1,7 @@
+Code-Review+2: Gaël Chamoulaud <gchamoul@redhat.com>
+Verified+1: Gaël Chamoulaud <gchamoul@redhat.com>
+Submitted-by: Gaël Chamoulaud <gchamoul@redhat.com>
+Submitted-at: Fri, 20 Feb 2015 11:35:02 +0100
+Reviewed-on: https://review.gerrithub.io/215739
+Project: openstack-packages/neutron-lbaas
+Branch: refs/heads/f20-master
