@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1969be_270ffb2f",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2015-03-05T09:38:35Z",
+      "side": 1,
+      "message": "%{servicename}v2-agent?",
+      "range": {
+        "startLine": 110,
+        "startChar": 9,
+        "endLine": 110,
+        "endChar": 11
+      },
+      "revId": "df8e01ea0145d094ace14f0bd336c02eb53f0f64",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
