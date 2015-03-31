@@ -17,6 +17,7 @@ BuildRequires:  python2-devel
 BuildRequires:  python-pbr
 BuildRequires:  python-setuptools
 BuildRequires:  systemd-units
+BuildRequires:  crudini
 
 Requires:       python-%{servicename} = %{version}-%{release}
 Requires:       openstack-neutron >= %{version}
@@ -35,6 +36,7 @@ Requires:       python-eventlet
 Requires:       python-netaddr >= 0.7.12
 Requires:       python-oslo-config >= 2:1.4.0
 Requires:       python-oslo-db >= 1.1.0
+Requires:       python-oslo-log
 Requires:       python-oslo-messaging >= 1.4.0.0
 Requires:       python-oslo-serialization >= 1.0.0
 Requires:       python-oslo-utils >= 1.0.0
@@ -42,6 +44,7 @@ Requires:       python-pbr
 Requires:       python-requests
 Requires:       python-six
 Requires:       python-sqlalchemy
+#Requires:       python-barbicanclient
 
 
 %description -n python-%{servicename}
@@ -86,6 +89,9 @@ mv %{buildroot}/usr/etc/neutron/rootwrap.d/*.filters %{buildroot}%{_datarootdir}
 install -d -m 755 %{buildroot}%{_sysconfdir}/neutron
 mv %{buildroot}/usr/etc/neutron/*.ini %{buildroot}%{_sysconfdir}/neutron
 mv %{buildroot}/usr/etc/neutron/*.conf %{buildroot}%{_sysconfdir}/neutron
+# Revert default to local_cert_manager to avoid Barbican dependency
+# TODO Remove when Barbican server/client is packaged
+crudini --set %{buildroot}%{_sysconfdir}/neutron/neutron_lbaas.conf certificates cert_manager_class neutron_lbaas.common.cert_manager.local_cert_manager
 
 # Install systemd units
 install -p -D -m 644 %{SOURCE1} %{buildroot}%{_unitdir}/%{servicename}-agent.service
