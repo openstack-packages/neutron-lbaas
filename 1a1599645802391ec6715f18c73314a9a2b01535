@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_9fcc8237",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2015-03-31T12:40:30Z",
+      "side": 1,
+      "message": "I think a better way would be to set it in neutron-dist.conf that we have just for those cases.",
+      "revId": "1a1599645802391ec6715f18c73314a9a2b01535",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
