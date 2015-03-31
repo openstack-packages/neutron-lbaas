@@ -34,6 +34,24 @@
       "revId": "1a1599645802391ec6715f18c73314a9a2b01535",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_1f86d2b9",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2015-03-31T12:52:08Z",
+      "side": 1,
+      "message": "If you think getting rid of interdependency here is justified, then I think it\u0027s a good time to add -dist file to lbaas package.",
+      "parentUuid": "1a106d94_5ff96a4c",
+      "revId": "1a1599645802391ec6715f18c73314a9a2b01535",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
