@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_ee8d0133",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003214
+      },
+      "writtenOn": "2015-04-02T15:21:30Z",
+      "side": 1,
+      "message": "ok, I looked on top 2 commits and they don\u0027t contain it. I\u0027ll add it.",
+      "parentUuid": "1a106d94_cec80577",
+      "range": {
+        "startLine": 13,
+        "startChar": 9,
+        "endLine": 13,
+        "endChar": 13
+      },
+      "revId": "e4b2e698ca7a725e3ac1b272efc825580b9ad001",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_eea6a1c0",
         "filename": "openstack-neutron-lbaas.spec",
         "patchSetId": 1
@@ -36,6 +60,30 @@
       "writtenOn": "2015-04-02T15:11:04Z",
       "side": 1,
       "message": "What does this substitution gives us?.. You could instead use %{servicename} in those cases, making it portable across *aas repos.",
+      "range": {
+        "startLine": 4,
+        "startChar": 19,
+        "endLine": 4,
+        "endChar": 30
+      },
+      "revId": "e4b2e698ca7a725e3ac1b272efc825580b9ad001",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_ce76453e",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003214
+      },
+      "writtenOn": "2015-04-02T15:21:30Z",
+      "side": 1,
+      "message": "%{servicename} is neutron-lbaas while this is only for lbaas_agent configuration (not for service plugin). Or maybe I don\u0027t get your suggestion. Do you suggest to use neutron-lbaas-dist.conf as a dist conf filename?",
+      "parentUuid": "1a106d94_eea6a1c0",
       "range": {
         "startLine": 4,
         "startChar": 19,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_8e7c4d22",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 1003214
+      },
+      "writtenOn": "2015-04-02T15:21:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_4eac15a1",
+      "range": {
+        "startLine": 77,
+        "startChar": 33,
+        "endLine": 77,
+        "endChar": 44
+      },
+      "revId": "e4b2e698ca7a725e3ac1b272efc825580b9ad001",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_2eb1d9f8",
         "filename": "openstack-neutron-lbaas.spec",
         "patchSetId": 1
@@ -82,6 +154,30 @@
       "writtenOn": "2015-04-02T15:11:04Z",
       "side": 1,
       "message": "nit: please keep two empty lines between % sections.",
+      "range": {
+        "startLine": 83,
+        "startChar": 9,
+        "endLine": 83,
+        "endChar": 16
+      },
+      "revId": "e4b2e698ca7a725e3ac1b272efc825580b9ad001",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_2e88b91e",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 1003214
+      },
+      "writtenOn": "2015-04-02T15:21:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a106d94_2eb1d9f8",
       "range": {
         "startLine": 83,
         "startChar": 9,
