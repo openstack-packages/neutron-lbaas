@@ -1,6 +1,7 @@
 %global modulename neutron_lbaas
 %global servicename neutron-lbaas
 %global type LBaaS
+%global lbaasagent lbaas_agent
 
 Name:           openstack-%{servicename}
 Version:        XXX
@@ -11,6 +12,7 @@ License:        ASL 2.0
 URL:            http://launchpad.net/neutron/
 Source0:        http://tarballs.openstack.org/%{servicename}/%{servicename}-master.tar.gz
 Source1:        %{servicename}-agent.service
+Source2:        %{lbaasagent}-dist.conf
 
 BuildArch:      noarch
 BuildRequires:  python2-devel
@@ -72,6 +74,13 @@ rm -rf %{modulename}.egg-info
 %build
 %{__python2} setup.py build
 
+# Loop through values in neutron-lbaas_agent-dist.conf and make sure that the values
+# are substituted into the lbaas_agent.ini as comments.
+while read name eq value; do
+  if [ -n "$name" -a -n "$value" ]; then
+    sed -ri "0,/^(#)? *$name *=/{s!\(^(#)? *$name *=\).*!\1 $value!}" etc/lbaas_agent.ini
+  fi
+done < %{SOURCE2}
 
 %install
 export PBR_VERSION=%{version}
@@ -89,6 +98,9 @@ mv %{buildroot}/usr/etc/neutron/*.conf %{buildroot}%{_sysconfdir}/neutron
 
 # Install systemd units
 install -p -D -m 644 %{SOURCE1} %{buildroot}%{_unitdir}/%{servicename}-agent.service
+
+# Install dist conf
+install -p -D -m 640 %{SOURCE2} %{buildroot}%{_datadir}/neutron/%{lbaasagent}-dist.conf
 
 
 %post
@@ -113,6 +125,7 @@ install -p -D -m 644 %{SOURCE1} %{buildroot}%{_unitdir}/%{servicename}-agent.ser
 %config(noreplace) %attr(0640, root, neutron) %{_sysconfdir}/neutron/lbaas_agent.ini
 %config(noreplace) %attr(0640, root, neutron) %{_sysconfdir}/neutron/neutron_lbaas.conf
 %config(noreplace) %attr(0640, root, neutron) %{_sysconfdir}/neutron/services_lbaas.conf
+%attr(-, root, neutron) %{_datadir}/neutron/%{lbaasagent}-dist.conf
 
 
 %files -n python-%{servicename}
