@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_aed8291e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2015-04-02T15:33:32Z",
+      "side": 1,
+      "message": "That\u0027s because they didn\u0027t have corresponding redhat bugs.",
+      "parentUuid": "1a106d94_ee8d0133",
+      "range": {
+        "startLine": 13,
+        "startChar": 9,
+        "endLine": 13,
+        "endChar": 13
+      },
+      "revId": "e4b2e698ca7a725e3ac1b272efc825580b9ad001",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_eea6a1c0",
         "filename": "openstack-neutron-lbaas.spec",
         "patchSetId": 1
