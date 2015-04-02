@@ -96,6 +96,30 @@
     },
     {
       "key": {
+        "uuid": "1a106d94_6ece315c",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2015-04-02T15:33:05Z",
+      "side": 1,
+      "message": "Yes, I do suggest it. There is only one configuration file in the package anyway.",
+      "parentUuid": "1a106d94_ce76453e",
+      "range": {
+        "startLine": 4,
+        "startChar": 19,
+        "endLine": 4,
+        "endChar": 30
+      },
+      "revId": "e4b2e698ca7a725e3ac1b272efc825580b9ad001",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a106d94_4eac15a1",
         "filename": "openstack-neutron-lbaas.spec",
         "patchSetId": 1
