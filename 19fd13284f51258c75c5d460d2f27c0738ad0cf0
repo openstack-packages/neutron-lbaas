@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_e3b4e036",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1003214
+      },
+      "writtenOn": "2015-04-09T13:43:27Z",
+      "side": 1,
+      "message": "I probably wasn\u0027t explicit enough in previous comment, I would also suggest to put \u003e\u003d 0.9.7 here. My apologies.",
+      "range": {
+        "startLine": 49,
+        "startChar": 23,
+        "endLine": 49,
+        "endChar": 33
+      },
+      "revId": "19fd13284f51258c75c5d460d2f27c0738ad0cf0",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
