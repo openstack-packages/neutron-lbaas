@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_2086ee65",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003214
+      },
+      "writtenOn": "2015-04-09T09:08:06Z",
+      "side": 1,
+      "message": "What is the rationale here? For me it seems better for service plugin to have a configuration file and agent to have a configuration file. I might be not well informed on what agent shares with service plugin but providing more configuration option seems to me rather confusing.",
+      "range": {
+        "startLine": 10,
+        "startChar": 10,
+        "endLine": 10,
+        "endChar": 16
+      },
+      "revId": "d99dfa5f91d663eb0befd928462d789f5ce1bfac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
