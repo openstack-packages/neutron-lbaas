@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_bd5e8543",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1003214
+      },
+      "writtenOn": "2015-04-09T08:17:46Z",
+      "side": 1,
+      "message": "I think we should also put a version limitation here. There were problems in u/s if too old version of alembic or sqlalchemy were used.",
+      "range": {
+        "startLine": 34,
+        "startChar": 23,
+        "endLine": 34,
+        "endChar": 30
+      },
+      "revId": "15f8810479a123b679a811326263d1cde89eeac5",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
