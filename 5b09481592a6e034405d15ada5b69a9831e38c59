@@ -1,0 +1,8 @@
+Code-Review+1: Miguel Ángel Ajo <mangelajo@redhat.com>
+Code-Review+2: Ihar Hrachyshka <ihrachys@redhat.com>
+Verified+1: Ihar Hrachyshka <ihrachys@redhat.com>
+Submitted-by: Ihar Hrachyshka <ihrachys@redhat.com>
+Submitted-at: Thu, 09 Apr 2015 16:22:08 +0200
+Reviewed-on: https://review.gerrithub.io/229736
+Project: openstack-packages/neutron-lbaas
+Branch: refs/heads/f20-master
