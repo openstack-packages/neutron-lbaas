@@ -34,6 +34,24 @@
       "revId": "5ff39e265d684b99bf257d49ad798c7c6d558ec7",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_63f750f6",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1003310
+      },
+      "writtenOn": "2015-04-09T13:50:58Z",
+      "side": 1,
+      "message": "ah, ok, because the file could, or could not be there, since the service is optional!,\ngot it.",
+      "parentUuid": "1a106d94_a30e6830",
+      "revId": "5ff39e265d684b99bf257d49ad798c7c6d558ec7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
