@@ -16,6 +16,24 @@
       "revId": "5ff39e265d684b99bf257d49ad798c7c6d558ec7",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_a30e6830",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2015-04-09T13:27:12Z",
+      "side": 1,
+      "message": "neutron-server .service file is not able to point to the file directory, so it points to the conf dir. And here we populate it with a link to the config file we want neutron-server to load.",
+      "parentUuid": "1a106d94_a0abfe1c",
+      "revId": "5ff39e265d684b99bf257d49ad798c7c6d558ec7",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
