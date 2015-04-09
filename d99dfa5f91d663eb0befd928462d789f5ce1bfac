@@ -22,6 +22,30 @@
       "revId": "d99dfa5f91d663eb0befd928462d789f5ce1bfac",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a106d94_8027e263",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2015-04-09T10:04:22Z",
+      "side": 1,
+      "message": "That would be ideal, but since u/s does not split the file in two parts, we are left with loading the same config values in both sides (neutron-server and agent).",
+      "parentUuid": "1a106d94_2086ee65",
+      "range": {
+        "startLine": 10,
+        "startChar": 10,
+        "endLine": 10,
+        "endChar": 16
+      },
+      "revId": "d99dfa5f91d663eb0befd928462d789f5ce1bfac",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
     }
   ]
 }
