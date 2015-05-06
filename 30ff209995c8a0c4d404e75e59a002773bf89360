@@ -1,0 +1,7 @@
+Code-Review+2: Gaël Chamoulaud <gchamoul@redhat.com>
+Verified+1: Gaël Chamoulaud <gchamoul@redhat.com>
+Submitted-by: Gaël Chamoulaud <gchamoul@redhat.com>
+Submitted-at: Wed, 06 May 2015 14:54:32 +0200
+Reviewed-on: https://review.gerrithub.io/232503
+Project: openstack-packages/neutron-lbaas
+Branch: refs/heads/rpm-master
