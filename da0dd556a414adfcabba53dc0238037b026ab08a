@@ -1,0 +1,7 @@
+Code-Review+2: Jakub Libosvar <jakub.libosvar@gmail.com>
+Verified+1: Ihar Hrachyshka <ihrachys@redhat.com>
+Submitted-by: Ihar Hrachyshka <ihrachys@redhat.com>
+Submitted-at: Fri, 05 Jun 2015 12:05:09 +0200
+Reviewed-on: https://review.gerrithub.io/235262
+Project: openstack-packages/neutron-lbaas
+Branch: refs/heads/rpm-kilo
