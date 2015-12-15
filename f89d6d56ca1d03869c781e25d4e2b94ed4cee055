@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac4a560_35a0ecf3",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2015-12-15T11:54:36Z",
+      "side": 1,
+      "message": "Is it a runtime dep too?",
+      "revId": "f89d6d56ca1d03869c781e25d4e2b94ed4cee055",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac4a560_55a7280c",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2015-12-15T11:54:36Z",
+      "side": 1,
+      "message": "nit: we use python-%{servicename} in other places.",
+      "revId": "f89d6d56ca1d03869c781e25d4e2b94ed4cee055",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac4a560_f55e7411",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2015-12-15T11:54:36Z",
+      "side": 1,
+      "message": "Should it also be a runtime dep then?",
+      "revId": "f89d6d56ca1d03869c781e25d4e2b94ed4cee055",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
