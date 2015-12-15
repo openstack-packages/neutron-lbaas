@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "5ac4a560_b5507c5f",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 1003214
+      },
+      "writtenOn": "2015-12-15T13:27:45Z",
+      "side": 1,
+      "message": "It is (L42)",
+      "parentUuid": "5ac4a560_35a0ecf3",
+      "revId": "f89d6d56ca1d03869c781e25d4e2b94ed4cee055",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac4a560_55a7280c",
         "filename": "openstack-neutron-lbaas.spec",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "5ac4a560_755fc472",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003214
+      },
+      "writtenOn": "2015-12-15T13:27:45Z",
+      "side": 1,
+      "message": "Oh, then it might be wrong. servicename expands to neutron-lbaas",
+      "parentUuid": "5ac4a560_55a7280c",
+      "revId": "f89d6d56ca1d03869c781e25d4e2b94ed4cee055",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac4a560_f55e7411",
         "filename": "openstack-neutron-lbaas.spec",
         "patchSetId": 2
@@ -47,6 +83,24 @@
       "writtenOn": "2015-12-15T11:54:36Z",
       "side": 1,
       "message": "Should it also be a runtime dep then?",
+      "revId": "f89d6d56ca1d03869c781e25d4e2b94ed4cee055",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ac4a560_f54af4aa",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 1003214
+      },
+      "writtenOn": "2015-12-15T13:27:45Z",
+      "side": 1,
+      "message": "It is - L52, L53",
+      "parentUuid": "5ac4a560_f55e7411",
       "revId": "f89d6d56ca1d03869c781e25d4e2b94ed4cee055",
       "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
       "unresolved": false
