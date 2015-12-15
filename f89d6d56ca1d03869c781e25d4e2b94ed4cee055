@@ -72,6 +72,24 @@
     },
     {
       "key": {
+        "uuid": "5ac4a560_f0f8424b",
+        "filename": "openstack-neutron-lbaas.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 1003190
+      },
+      "writtenOn": "2015-12-15T15:45:45Z",
+      "side": 1,
+      "message": "Oh right, I am retarded.",
+      "parentUuid": "5ac4a560_755fc472",
+      "revId": "f89d6d56ca1d03869c781e25d4e2b94ed4cee055",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ac4a560_f55e7411",
         "filename": "openstack-neutron-lbaas.spec",
         "patchSetId": 2
