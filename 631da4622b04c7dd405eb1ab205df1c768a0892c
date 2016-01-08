@@ -1,0 +1,7 @@
+Verified+1: rdo-ci-jenkins <whayutin+rdocijenkins@redhat.com>
+Code-Review+2: Jakub Libosvar <jakub.libosvar@gmail.com>
+Submitted-by: Jakub Libosvar <jakub.libosvar@gmail.com>
+Submitted-at: Fri, 08 Jan 2016 10:29:20 +0100
+Reviewed-on: https://review.gerrithub.io/258837
+Project: openstack-packages/neutron-lbaas
+Branch: refs/heads/rpm-liberty
