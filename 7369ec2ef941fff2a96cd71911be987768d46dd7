@@ -1,0 +1,7 @@
+Code-Review+2: Alan Pevec <alan.pevec@redhat.com>
+Verified+1: rdo-ci-jenkins <whayutin+rdocijenkins@redhat.com>
+Submitted-by: John Trowbridge <trown@redhat.com>
+Submitted-at: Fri, 05 Feb 2016 16:57:34 +0100
+Reviewed-on: https://review.gerrithub.io/262300
+Project: openstack-packages/neutron-lbaas
+Branch: refs/heads/rpm-liberty
