@@ -1,0 +1,7 @@
+Code-Review+2: Alan Pevec <alan.pevec@redhat.com>
+Verified+1: rdo-ci-jenkins <whayutin+rdocijenkins@redhat.com>
+Submitted-by: Alan Pevec <alan.pevec@redhat.com>
+Submitted-at: Fri, 05 Feb 2016 15:38:23 +0100
+Reviewed-on: https://review.gerrithub.io/262299
+Project: openstack-packages/neutron-lbaas
+Branch: refs/heads/rpm-master
