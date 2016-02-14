@@ -1,0 +1,7 @@
+Verified+1: rdo-ci-jenkins <whayutin+rdocijenkins@redhat.com>
+Code-Review+2: Frederic Lepied <frederic.lepied@redhat.com>
+Submitted-by: Frederic Lepied <frederic.lepied@redhat.com>
+Submitted-at: Sun, 14 Feb 2016 23:00:04 +0100
+Reviewed-on: https://review.gerrithub.io/263135
+Project: openstack-packages/neutron-lbaas
+Branch: refs/heads/rpm-master
