@@ -41,7 +41,7 @@ This is a %{type} service plugin for Openstack Neutron (Networking) service.
 Summary:        Neutron %{type} Python libraries
 Group:          Applications/System
 
-Requires:       python-neutron >= 1:%{version}
+Requires:       python-neutron >= 1:8.0.0
 Requires:       python-alembic >= 0.7.2
 Requires:       python-barbicanclient >= 3.0.1
 Requires:       python-eventlet
