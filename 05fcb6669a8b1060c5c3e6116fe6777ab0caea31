@@ -1,0 +1,7 @@
+Verified+1: rdo-ci-jenkins <whayutin+rdocijenkins@redhat.com>
+Code-Review+2: Ihar Hrachyshka <ihrachys@redhat.com>
+Submitted-by: Ihar Hrachyshka <ihrachys@redhat.com>
+Submitted-at: Sun, 10 Apr 2016 03:13:12 -0400
+Reviewed-on: https://review.gerrithub.io/272045
+Project: openstack-packages/neutron-lbaas
+Branch: refs/heads/rpm-master
